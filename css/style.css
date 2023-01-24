@@ -141,7 +141,7 @@ font-weight: bold;
 }
 
 
-.section2_part1_inner{
+.section2_inner{
     background-color: grey;
     opacity: 0.8;
     height: 70%;
@@ -150,14 +150,14 @@ font-weight: bold;
     padding: 20px 20px 20px;
 }
 
-.section2_part1_inner h1{
+.section2_inner h1{
     font-weight: bold;
     text-align: center;
     font-size: 50px;
     margin: 10px 0px 5px;
 }
 
-.section2_part1_inner p{
+.section2_inner p{
     font-size: 15px;
 }
 
