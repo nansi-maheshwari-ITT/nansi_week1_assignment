@@ -89,10 +89,6 @@ font-weight: bold;
     color: grey;
 }
 
-.section1_imagepart{
-    
-}
-
 .section1_imagepart img{
     height: 14px;
     width: 14px;
@@ -124,6 +120,8 @@ font-weight: bold;
     width: 80%;
     height: 100%;
 }
+
+/* section1y_end */
 
 
 /* section2_start */
@@ -219,3 +217,4 @@ font-weight: bold;
     border-width: 1px;
 }
 
+/* section2_part2_end */
