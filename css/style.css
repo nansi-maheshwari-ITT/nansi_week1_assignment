@@ -1,12 +1,12 @@
-Body{
+body{
     background-color: black;
     color: white;
     
 }
 
-/* Navbar start */
 
-.navbar_section{
+
+.navbar-section{
     display: flex;
     flex-direction: row;
 }
@@ -20,7 +20,7 @@ Body{
 ul{
     text-align: center;
     vertical-align:top;
-    padding: 0em 1.5em !important;
+    padding: 0em 1.5em;
 }
 
 nav li{
@@ -56,11 +56,9 @@ nav button{
 
 }
 
-/* Navbar end */
 
-/* Seciton1 */
 
-.section1_container{
+.section1-container{
     display: flex;
     flex-direction: row;
     width: 70%;
@@ -69,38 +67,38 @@ nav button{
     
 }
 
-.section1_part1{
+.section1-content{
 width: 50%;
 }
 
-.section1_top{
+.section1-top{
     color: red;
     margin: 0px;
     font-size: 15px;
 }
 
-.section1_part1 h1{
+.section1-content h1{
 margin: 10px 0px;
 font-weight: bold;
 }
 
-.section1_bottom{
+.section1-bottom{
     font-size: 11px;
     color: grey;
 }
 
-.section1_imagepart img{
+.section1-imagepart img{
     height: 14px;
     width: 14px;
    margin: 0px;
 }
 
-.section1_imagepart p{
+.section1-imagepart p{
     display: inline-block;
     font-size: 15px;
 }
 
-.section1_part1 button{
+.section1-content button{
     margin: 2em 0em;
     background-color: rgb(196, 13, 13);
     color: white;
@@ -112,34 +110,31 @@ font-weight: bold;
 }
 
 
-.section1_part2{
+.section1-image-section{
     width: 50%;
 }
 
-.section1_part2 img{
+.section1-image-section img{
     width: 80%;
     height: 100%;
 }
 
-/* section1y_end */
 
-
-/* section2_start */
 .section2{
     display: flex;
     flex-direction: row;
 }
 
-/* section2_part1_start */
 
-.section2_part1{
+
+.section2-image-container{
     background-image: url("https://th.bing.com/th/id/OIP.MUP3-MYS98tdNcQ4xDbd9gAAAA?pid=ImgDet&rs=1");
     background-size: cover;
     width: 50%;
 }
 
 
-.section2_inner{
+.section2-image-container-inner{
     background-color: grey;
     opacity: 0.8;
     height: 70%;
@@ -148,26 +143,18 @@ font-weight: bold;
     padding: 20px 20px 20px;
 }
 
-.section2_inner h1{
+.section2-image-container-inner h1{
     font-weight: bold;
     text-align: center;
     font-size: 50px;
     margin: 10px 0px 5px;
 }
 
-.section2_inner p{
+.section2-image-container-inner p{
     font-size: 15px;
 }
 
-
-/* section2_part1_end */
-
-
-
-/* section2_part2_start */
-
-
-.section2_part2{
+.section2-card-container{
     background-color: grey;
     display: flex;
     flex-direction: column;
@@ -178,7 +165,7 @@ font-weight: bold;
 }
 
 
-.section2_part2_inner{
+.section2-card-container-inner{
     display: flex;
     flex-direction: row;
     background-color: white;
@@ -186,7 +173,7 @@ font-weight: bold;
     
 }
 
-.section2_inner1{
+.section2-card-container-inner1{
     width:30%;
     background-color: black;
     font-size: 20px;
@@ -198,19 +185,16 @@ font-weight: bold;
     align-items: center;
 }
 
-.section2_inner1 h1,.section2_inner1 p{
-    margin :0px;
-}
 
 
-.section2_inner2{
+.section2-card-container-inner2{
     width: 60%;
     color: black;
     background-color: white;
     padding: 0px 10px;
 }
 
-.section2_inner2 button {
+.section2-card-container-inner2 button {
     background-color: white;
     padding: 3px;
     border-radius: 1px;
