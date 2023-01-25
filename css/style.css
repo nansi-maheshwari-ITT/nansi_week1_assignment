@@ -1,0 +1,206 @@
+body{
+    background-color: black;
+    color: white;
+    
+}
+
+
+
+.navbar-section{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar{
+  display: inline-block;
+   margin: 0.5em 20em;
+    
+}
+
+ul{
+    text-align: center;
+    vertical-align:top;
+    padding: 0em 1.5em;
+}
+
+nav li{
+  display: inline;
+  margin: 0px 10px ;
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+ nav img{
+    height: 60px;
+    width: 60px;
+    margin: 0px 0px 0px 10px;
+}
+
+.active{
+    color: red;
+}
+
+nav button{
+    background-color: rgb(196, 13, 13);
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+
+
+.head-container{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+    padding: 5em 0em;
+    
+}
+
+.head-content{
+width: 50%;
+}
+
+.head-top{
+    color: red;
+    margin: 0px;
+    font-size: 15px;
+}
+
+.head-content h1{
+margin: 10px 0px;
+font-weight: bold;
+}
+
+.head-bottom{
+    font-size: 11px;
+    color: grey;
+}
+
+.head-imagepart img{
+    height: 14px;
+    width: 14px;
+   margin: 0px;
+}
+
+.head-imagepart p{
+    display: inline-block;
+    font-size: 15px;
+}
+
+.head-content button{
+    margin: 2em 0em;
+    background-color: rgb(196, 13, 13);
+    color: white;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+
+}
+
+
+.head-image-section{
+    width: 50%;
+}
+
+.head-image-section img{
+    width: 80%;
+    height: 100%;
+}
+
+
+.body{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.body-image-container{
+    background-image: url("https://th.bing.com/th/id/OIP.MUP3-MYS98tdNcQ4xDbd9gAAAA?pid=ImgDet&rs=1");
+    background-size: cover;
+    width: 50%;
+}
+
+
+.body-image-container-inner{
+    background-color: grey;
+    opacity: 0.8;
+    height: 70%;
+    width: 70%;
+    margin: 3em auto 7em;
+    padding: 20px 20px 20px;
+}
+
+.body-image-container-inner h1{
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    margin: 10px 0px 5px;
+}
+
+.body-image-container-inner p{
+    font-size: 15px;
+}
+
+.body-card-container-inner1 p,.body-card-container-inner1 h1{
+    margin: 0px;
+}
+
+.body-card-container{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    padding: 20px;
+    
+}
+
+
+.body-card-container-inner{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    
+    
+}
+
+.body-card-container-inner1{
+    width:30%;
+    background-color: black;
+    font-size: 20px;
+    font-weight: bold;
+   display: flex;
+   flex-direction: column;
+   gap: 0px;
+   justify-content: center;
+    align-items: center;
+}
+
+
+
+.body-card-container-inner2{
+    width: 60%;
+    color: black;
+    background-color: white;
+    padding: 0px 10px;
+}
+
+.body-card-container-inner2 button {
+    background-color: white;
+    padding: 3px;
+    border-radius: 1px;
+    border-width: 1px;
+}
