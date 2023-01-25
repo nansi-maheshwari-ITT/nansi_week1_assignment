@@ -58,7 +58,7 @@ nav button{
 
 
 
-.section1-container{
+.head-container{
     display: flex;
     flex-direction: row;
     width: 70%;
@@ -67,38 +67,38 @@ nav button{
     
 }
 
-.section1-content{
+.head-content{
 width: 50%;
 }
 
-.section1-top{
+.head-top{
     color: red;
     margin: 0px;
     font-size: 15px;
 }
 
-.section1-content h1{
+.head-content h1{
 margin: 10px 0px;
 font-weight: bold;
 }
 
-.section1-bottom{
+.head-bottom{
     font-size: 11px;
     color: grey;
 }
 
-.section1-imagepart img{
+.head-imagepart img{
     height: 14px;
     width: 14px;
    margin: 0px;
 }
 
-.section1-imagepart p{
+.head-imagepart p{
     display: inline-block;
     font-size: 15px;
 }
 
-.section1-content button{
+.head-content button{
     margin: 2em 0em;
     background-color: rgb(196, 13, 13);
     color: white;
@@ -110,31 +110,31 @@ font-weight: bold;
 }
 
 
-.section1-image-section{
+.head-image-section{
     width: 50%;
 }
 
-.section1-image-section img{
+.head-image-section img{
     width: 80%;
     height: 100%;
 }
 
 
-.section2{
+.body{
     display: flex;
     flex-direction: row;
 }
 
 
 
-.section2-image-container{
+.body-image-container{
     background-image: url("https://th.bing.com/th/id/OIP.MUP3-MYS98tdNcQ4xDbd9gAAAA?pid=ImgDet&rs=1");
     background-size: cover;
     width: 50%;
 }
 
 
-.section2-image-container-inner{
+.body-image-container-inner{
     background-color: grey;
     opacity: 0.8;
     height: 70%;
@@ -143,18 +143,22 @@ font-weight: bold;
     padding: 20px 20px 20px;
 }
 
-.section2-image-container-inner h1{
+.body-image-container-inner h1{
     font-weight: bold;
     text-align: center;
     font-size: 50px;
     margin: 10px 0px 5px;
 }
 
-.section2-image-container-inner p{
+.body-image-container-inner p{
     font-size: 15px;
 }
 
-.section2-card-container{
+.body-card-container-inner1 p,.body-card-container-inner1 h1{
+    margin: 0px;
+}
+
+.body-card-container{
     background-color: grey;
     display: flex;
     flex-direction: column;
@@ -165,7 +169,7 @@ font-weight: bold;
 }
 
 
-.section2-card-container-inner{
+.body-card-container-inner{
     display: flex;
     flex-direction: row;
     background-color: white;
@@ -173,7 +177,7 @@ font-weight: bold;
     
 }
 
-.section2-card-container-inner1{
+.body-card-container-inner1{
     width:30%;
     background-color: black;
     font-size: 20px;
@@ -187,14 +191,14 @@ font-weight: bold;
 
 
 
-.section2-card-container-inner2{
+.body-card-container-inner2{
     width: 60%;
     color: black;
     background-color: white;
     padding: 0px 10px;
 }
 
-.section2-card-container-inner2 button {
+.body-card-container-inner2 button {
     background-color: white;
     padding: 3px;
     border-radius: 1px;
